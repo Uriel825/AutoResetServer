@@ -7,7 +7,7 @@ s = True
 "Obtener los datos de la instancia"
 AWS_REGION = "us-east-1"
 EC2_RESOURCE = boto3.resource('ec2', region_name=AWS_REGION)
-INSTANCE_ID = '****************'
+INSTANCE_ID = 'i-0177d0dd2a48aaf5c'
 instance = EC2_RESOURCE.Instance(INSTANCE_ID)
 
 while s == True:
